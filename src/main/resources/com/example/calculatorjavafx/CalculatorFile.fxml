@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="292.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculatorjavafx.CalculatorController">
+   <children>
+      <TextField fx:id="textResult" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="39.0" prefHeight="32.0" prefWidth="263.0" style="-fx-background-color: #B0E0E6;" />
+      <Button layoutX="14.0" layoutY="131.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="7">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="131.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="131.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="171.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="171.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="5">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="171.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="6">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="131.0" mnemonicParsing="false" onAction="#Operation" prefHeight="71.0" prefWidth="59.0" style="-fx-background-color: orange;" text="+">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="212.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="212.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="212.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: plum;" text="3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="213.0" mnemonicParsing="false" onAction="#Operation" prefHeight="71.0" prefWidth="59.0" style="-fx-background-color: orange;" text="=">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#Number" prefHeight="32.0" prefWidth="127.0" style="-fx-background-color: plum;" text="0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="252.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: orange;" text=".">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="89.0" mnemonicParsing="false" onAction="#setClearButton" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: tomato;" text="C">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="89.0" mnemonicParsing="false" onAction="#Operation" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: orange;" text="/">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="89.0" mnemonicParsing="false" onAction="#Operation" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: orange;" text="*">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="89.0" mnemonicParsing="false" onAction="#Operation" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: orange;" text="-">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="6.0" prefHeight="17.0" prefWidth="292.0" text="Welcome User 😊">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
