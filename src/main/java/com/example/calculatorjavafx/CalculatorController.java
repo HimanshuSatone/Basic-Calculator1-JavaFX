@@ -45,14 +45,14 @@ public class CalculatorController{
                 return;
             }
             number2 = Long.parseLong(textResult.getText());
-            float result =calculate(number1,number2,output);
+            double result =calculate(number1,number2,output);
             textResult.setText(String.valueOf(result));
             output="";
         }
     }
 
     //Function to perform calculation
-    public float calculate(long n1, long n2, String op){
+    public double calculate(long n1, long n2, String op){
 
         switch (op){
 
@@ -63,7 +63,7 @@ public class CalculatorController{
                 if(n2==0){
                     return 0;
                 }
-                return n1/(float)n2;
+                return n1/(double)n2;
             default : return 0;
         }
     }
